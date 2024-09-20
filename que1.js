@@ -5,7 +5,7 @@
 // refused to work
 
 let colors = ["red","green","pink","yellow", "purple", "blue"]
-//     console.log(colors);
+    console.log(colors);
 
 // // acess the scond element of the array
 //     console.log(colors[1]);
@@ -34,13 +34,13 @@ let colors = ["red","green","pink","yellow", "purple", "blue"]
 
 
 // // arry lenth
-// lengthofarray = colors.length
-//   console.log(colors.length)
+lengthofarray = colors.length
+  console.log(colors.length)
 
 // iterate the array
-// for (let i = 0; i < colors.length; i++) {
-//     console.log(colors[i]);
-// }
+for (let i = 0; i < colors.length; i++) {
+    console.log(colors[i]);
+}
 
 // colors.forEach(function(color) {
 //     console.log(color);
