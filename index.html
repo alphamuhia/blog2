@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Professional Webpage Presentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        nav {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        nav a {
+            color: #4CAF50;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        .section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .section h2 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .section p {
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background-color: white;
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100px;
+            margin-bottom: 1rem;
+        }
+
+        .card h3 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Webpage Presentation</h1>
+        <p>Clean & Professional Design for Your Project</p>
+    </header>
+
+    <nav>
+        <a href="#section1">Overview</a>
+        <a href="#section2">Features</a>
+        <a href="#section3">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="section" id="section1">
+            <h2>Project Overview</h2>
+            <p>This project is designed to showcase a visually appealing and professional webpage layout. It is responsive, clean, and easy to navigate, perfect for business presentations.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <div class="section" id="section2">
+            <h2>Key Features</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://via.placeholder.com/100" alt="Design Icon">
+                    <h3>Modern Design</h3>
+                    <p>Sleek, modern design with attention to detail, ensuring it looks great on all devices.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/100" alt="Responsive Icon">
+                    <h3>Fully Responsive</h3>
+                    <p>Optimized for both desktop and mobile devices to ensure a seamless experience.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/100" alt="Support Icon">
+                    <h3>Easy Customization</h3>
+                    <p>Simple code structure allowing quick adjustments and feature integration.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section3">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out if you have any questions or need further assistance with this project!</p>
+            <a href="#" class="btn">Get in Touch</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
